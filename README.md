@@ -2,13 +2,6 @@
 
 https://github.com/taurushq-io/frost-ed25519/blob/master/pkg/eddsa/public.go
 
-![alt text](<Screenshot 2025-05-15 015318.png>)
-
-The TPM of mine users, their entire strategy together totally and consistently and only that entirely, was the above screenshot only.
-
-So FROST is not an algorithm itself; it just means secure; so I'm gonna call it Bo's algorithm for now. It's open source; feel free to use it and call it whatever you want.
-
-![alt text](<Screenshot 2025-05-15 015318-1.png>)
 
 
 # After that, I had keygen True, Share Transprot Encrypted True, Secure elemenet abstract True, Commit Phase True, Aggregator Ture, Verification True
@@ -22,3 +15,7 @@ And json_io is not a desirable thing; mine auto logs in removes the need for PW 
 # Compared to a randomly Googled of the same (literally) string FROST-Ed25519 ("FROST") written 4 years ago manually in Go vs written by advanced AI today, but designed by Bo.
 
 ![alt text](<Screenshot 2025-05-15 031051.png>)
+
+# This is literally in every way what happens when my TPM get compromised. If you're not willing to at least consider the truth, then take the open source because I do not want to talk to you and obviously don't have any incentive to.
+
+![alt text](<Screenshot 2025-05-15 031410.png>) ![alt text](<Screenshot 2025-05-15 031351.png>)
