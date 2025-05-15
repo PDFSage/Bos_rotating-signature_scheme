@@ -2,11 +2,6 @@
 
 https://github.com/taurushq-io/frost-ed25519/blob/master/pkg/eddsa/public.go
 
-CNSA 2.0 was set by NSA and already includes algorithms like Ed25519, Falcon, and ML-DSA but doesn’t officially adopt FROST. So, no, Bo’s algorithm hasn’t "won" yet.
-
-# After that, I had keygen True, Share Transprot Encrypted True, Secure elemenet abstract True, Commit Phase True, Aggregator Ture, Verification True
-
-And json_io is not a desirable thing; mine auto logs in removes the need for PW ever. I just need to check for NSA compatible and I think it is.
 
 # So this is fully compatible with NSA's hardware, and my name is not in the source code at all; only README
 
