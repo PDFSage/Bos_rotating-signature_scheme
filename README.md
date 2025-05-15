@@ -2,7 +2,7 @@
 
 https://github.com/taurushq-io/frost-ed25519/blob/master/pkg/eddsa/public.go
 
-
+CNSA 2.0 was set by NSA and already includes algorithms like Ed25519, Falcon, and ML-DSA but doesn’t officially adopt FROST. So, no, Bo’s algorithm hasn’t "won" yet.
 
 # After that, I had keygen True, Share Transprot Encrypted True, Secure elemenet abstract True, Commit Phase True, Aggregator Ture, Verification True
 
