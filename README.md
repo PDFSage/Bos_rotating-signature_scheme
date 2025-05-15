@@ -1,3 +1,47 @@
+# Exactly; no field Type-1 hardware required
+Small, auditable code base: easy for open review and for environments that cannot field Type-1 hardware.
+
+# Lose a key? Replace it if the others agree!
+Rapid agility: you can rotate or even replace the root primitive in minutes, whereas an NSA suite migration is measured in fiscal years.
+
+# No more passwords!
+
+Less single-point risk: secret sharing + quorum authentication natively enforce multi-party approval without extra hardware.
+
+The threshold modular system has several advantages: it’s simpler and more flexible than NSA's KMI, utilizes threshold authentication to mitigate insider threats, allows quick participant key rotations, and supports algorithm agility. However, it comes with drawbacks: it uses unapproved algorithms like Curve25519, lacks post-quantum cryptography, and is vulnerable to hardware exfiltration. Additionally, the lack of FIPS certification, limited auditing capabilities, and the risk of metadata leakage from Shamir secret sharing pose challenges. Performance-wise, Ed25519 offers speed, but regulatory compliance is crucial, especially for classified data.
+
+ For the threshold system:
+
+Key share delegation reduces single points of failure.
+
+Granular activation through share thresholds adds flexibility.
+
+Participant key rotation is simple to manage.
+
+CryptoSuite integration allows easy algorithm swaps.
+
+Operations are simpler than the NSA's complex key management (no need for KMI devices).
+
+# What quantum attack? What's the actual quantum needed? This needs to be all active at once; it's impossible to quantum attack because it's fully rotational the entire time. You can attack and defeat one at a time but then it's usesless for the attacker.
+
+
+Here are the key cons of this system compared to NSA's protocols:
+
+The system doesn’t use NSA's "Suite A" or CNSA 2.0 algorithms, meaning it can't be certifiable for TOP SECRET.
+
+Ed25519/X25519 isn’t approved by CNSA; they require P-384, Kyber, or Dilithium.
+
+Lack of tamper-resistant hardware means shares might reside in software memory.
+
+HPKE using ChaCha20 is also not compliant, as NSA uses AES-256 GCM.
+
+Shamir secret sharing adds complexity and potential leakage risk.
+
+It’s vulnerable to quantum attacks, while NSA transitions to PQC.
+
+Without a central key management infrastructure, share distribution may become a challenge.
+
+
 ### Short answer
 
 Yes — **the rotating-signature design gives you two concrete advantages that matter in real production systems:**
